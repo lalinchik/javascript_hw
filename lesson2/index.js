@@ -23,7 +23,7 @@
 
 var login = prompt("Введите ваш логин", "");
 if (login === "admin") {
-    var password = prompt("Введите ваш пароль", "")
+    var password = prompt("Введите ваш пароль", "");
     if (password.localeCompare("passw0rd") === 0) {
         alert("Welcome home!");
     } else if (password == null) {
@@ -42,6 +42,11 @@ var a = 1, b = 2;
 a + b >= 3 ? result = "Yep!" : result = "Noup!";
 
 var name = 'admin', text;
-var text = (name == 'admin') ? 'Hi' :
+text = (name == 'admin') ? 'Hi' :
     (name == 'manager') ? 'Hello' :
         (name == '') ? 'No login' : '';
+
+function numberToString(num){
+    return num.toString();
+}
+
