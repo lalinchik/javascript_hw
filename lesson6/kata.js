@@ -7,7 +7,7 @@ function getMissingElement(superImportantArray){
 }
 
 var arr = [9,2,4,5,7,0,8,6,1];
-//console.log(getMissingElement(arr));
+console.log(getMissingElement(arr));
 
 
 
